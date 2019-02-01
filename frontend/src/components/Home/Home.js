@@ -1,13 +1,15 @@
 
 import React, { Component } from 'react'
 
+import {Menu, Intro} from '../../views'
+
 class Home extends Component {
-  
 
   render() {
     return (
-      <div className="container">
-        <h1>APP Initial</h1>
+      <div>
+        <Menu/>
+        <Intro/>
       </div>
     );
   }
