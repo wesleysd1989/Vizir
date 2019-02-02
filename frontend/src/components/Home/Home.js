@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react'
 
-import { Menu, Intro, Planos} from '../../views'
+import { Menu, Intro, Planos, Calc } from '../../views'
 
 class Home extends Component {
 
@@ -11,6 +11,7 @@ class Home extends Component {
         <Menu/>
         <Intro/>
         <Planos/>
+        <Calc/>
       </div>
     );
   }
