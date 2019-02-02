@@ -1,6 +1,6 @@
 {
-  "name": "footer",
+  "name": "plan",
   "version": "0.0.0",
   "private": true,
-  "main": "./Footer.jsx"
+  "main": "./Plan.jsx"
 }
