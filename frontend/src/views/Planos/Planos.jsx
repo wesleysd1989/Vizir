@@ -5,7 +5,7 @@ class Planos extends Component {
 
     render() {
         return (
-            <div  class="jumbotron jumbotron-fluid" style={{ backgroundColor: 'blue' }}>
+            <div  className="jumbotron jumbotron-fluid" style={{ backgroundColor: 'blue', marginBottom: '0rem' }}>
                 <div className="container">
                     <h1 className="text-center" style={{ color: 'white' }}>PLANOS</h1>
                     <div className="row">
