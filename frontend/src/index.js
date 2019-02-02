@@ -6,6 +6,9 @@ import * as serviceWorker from './serviceWorker';
 // Componentes
 import { Home } from './components';
 
+//style
+import './css/style.css'
+
 ReactDOM.render(
     <HashRouter>
         <Switch>

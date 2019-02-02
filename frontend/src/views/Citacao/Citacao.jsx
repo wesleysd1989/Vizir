@@ -7,7 +7,9 @@ class Citacao extends Component {
 
     render() {
         return (
-                <img src={citacao}  className="d-inline-block align-top img-fluid" alt="calc"></img>
+                <div className="imgBackground">
+                    <img src={citacao} className="d-inline-block align-top img-fluid" alt="citacao" />
+                </div>
         )
     }
 }
