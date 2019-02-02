@@ -22,13 +22,13 @@ class Menu extends Component {
                                     <a className="nav-link mx-2" href="/#">Calculadora</a>
                                 </li>
                                 <li className="nav-item ">
-                                    <a class="nav-link disabled mx-2" href="/#" tabindex="-1" aria-disabled="true">Atendimento</a>
+                                    <a className="nav-link disabled mx-2" href="/#" tabIndex="-1" aria-disabled="true">Atendimento</a>
                                 </li>
                                 <li className="nav-item ">
-                                    <a class="nav-link disabled mx-2" href="/#" tabindex="-1" aria-disabled="true">Serviços</a>
+                                    <a className="nav-link disabled mx-2" href="/#" tabIndex="-2" aria-disabled="true">Serviços</a>
                                 </li>
                                 <li className="nav-item ">
-                                    <a class="nav-link disabled mx-2" href="/#" tabindex="-1" aria-disabled="true">Contato</a>
+                                    <a className="nav-link disabled mx-2" href="/#" tabIndex="-3" aria-disabled="true">Contato</a>
                                 </li>
                                 <button className="btn btn-primary my-2 my-sm-0" type="submit">Cadastre-se</button>
                             </ul>
