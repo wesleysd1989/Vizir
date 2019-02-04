@@ -47,7 +47,7 @@ class Plan extends Component {
                                     <div className="card-body">
                                         <div className="row mt-4">
                                             <div className="col-2 mx-2" style={{ top: '15px' }}>
-                                                <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" />
+                                                <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked={this.state.plan30} onChange={()=>{}}/>
                                             </div>
                                             <div className="col-10 mx-3">
                                                 <h4 className="card-title"><b>FaleMais 30</b></h4>
@@ -62,7 +62,7 @@ class Plan extends Component {
                                     <div className="card-body">
                                         <div className="row mt-4">
                                             <div className="col-2 mx-2" style={{ top: '15px' }}>
-                                                <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" />
+                                                <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked={this.state.plan60} onChange={()=>{}}/>
                                             </div>
                                             <div className="col-10 mx-3">
                                                 <h4 className="card-title"><b>FaleMais 60</b></h4>
@@ -77,7 +77,7 @@ class Plan extends Component {
                                     <div className="card-body">
                                     <div className="row mt-4">
                                             <div className="col-2 mx-2" style={{ top: '15px' }}>
-                                                <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked={this.state.plan120}/>
+                                                <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked={this.state.plan120} onChange={()=>{}}/>
                                             </div>
                                             <div className="col-10 mx-3">
                                                 <h4 className="card-title"><b>FaleMais 120</b></h4>
