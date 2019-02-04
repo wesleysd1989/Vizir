@@ -11,13 +11,15 @@ class Info extends Component {
                 <div className="text-center mb-5 text-white" style={{ backgroundColor: 'blue', height: '80px' }}>
                     <h1 style={{paddingTop: '15px'}}>Informações</h1>
                 </div>
-                <div className="row">
-                    <div className="col-md-4">
-                    </div>
-                    <div className="text-center mb-5 col-md-4">
-                        <img src={etapas} className="card-img-top" alt="etapas" />
-                    </div>
-                    <div className="col-md-4">
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-md-4">
+                        </div>
+                        <div className="text-center mb-5 col-md-4">
+                            <img src={etapas} className="card-img-top" alt="etapas" />
+                        </div>
+                        <div className="col-md-4">
+                        </div>
                     </div>
                 </div>
                 <div className="jumbotron jumbotron-fluid my-0 mb-5" style={{ backgroundColor: 'blue', height: '250px' }}>
