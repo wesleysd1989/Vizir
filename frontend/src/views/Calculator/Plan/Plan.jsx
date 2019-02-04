@@ -51,6 +51,9 @@ class Plan extends Component {
                     </div>
                 </div>
                 <div className="container mb-2" style={{ backgroundColor: 'white', height: '80px' }}>
+                    <div className="float-left">
+                        <a className="btn btn-primary" href="/#" role="button">Voltar</a>
+                    </div>
                     <div className="float-right">
                         <a className="btn btn-primary" href="#/calc/info" role="button">Proxima etapa ></a>
                     </div>
