@@ -13,7 +13,7 @@ class Calc extends Component {
                         <div className="py-5"></div>
                         <div className=" py-5 text-center">
                             <h1>Calcule com tranparência</h1>
-                            <a class="btn btn-primary" href="#/calc/plan" role="button">Calcular</a>
+                            <a className="btn btn-primary" href="#/calc/plan" role="button" style={{width: '200px'}}>Calcular</a>
                         </div>
                     </div>
                     <div className="col-md-6 " style={{ height: '400px' }}>

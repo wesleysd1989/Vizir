@@ -15,7 +15,7 @@ class Planos extends Component {
                                     <h4 className="card-title"><b>FaleMais 30</b></h4>
                                     <h5 className="card-text" style={{color: 'blue'}}>30 minutos</h5>
                                     <hr/>
-                                    <button className="btn btn-primary my-4 my-sm-0" disabled type="submit">Mais informações</button>
+                                    <button className="btn btn-primary my-4 my-sm-0" disabled type="submit">Mais informações +</button>
                                 </div>
                             </div>
                     </div>
@@ -25,7 +25,7 @@ class Planos extends Component {
                                     <h4 className="card-title"><b>FaleMais 60</b></h4>
                                     <h5 className="card-text" style={{color: 'blue'}}>60 minutos</h5>
                                     <hr/>
-                                    <button className="btn btn-primary my-4 my-sm-0" disabled type="submit">Mais informações</button>
+                                    <button className="btn btn-primary my-4 my-sm-0" disabled type="submit">Mais informações +</button>
                                 </div>
                             </div>
                     </div>
@@ -35,7 +35,7 @@ class Planos extends Component {
                                     <h4 className="card-title"><b>FaleMais 120</b></h4>
                                     <h5 className="card-text" style={{color: 'blue'}}>120 minutos</h5>
                                     <hr/>
-                                    <button className="btn btn-primary my-4 my-sm-0" disabled type="submit">Mais informações</button>
+                                    <button className="btn btn-primary my-4 my-sm-0" disabled type="submit">Mais informações +</button>
                                 </div>
                             </div>
                     </div>
