@@ -1,23 +1,23 @@
 
 import React, { Component } from 'react'
 
-import etapas from '../../../assets/etapas.png'
+import etapas from '../../../assets/etapas1.png'
 
 class Plan extends Component {
 
     render() {
         return (
             <div>
-                <div className="text-center mb-5" style={{ backgroundColor: 'blue', color: 'white', height: '80px' }}>
+                <div className="text-center mb-5 text-white" style={{ backgroundColor: 'blue', height: '80px' }}>
                     <h1>Qual Seu Plano?</h1>
                 </div>
                 <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-4">
                     </div>
-                    <div className="text-center mb-5 col-md-6">
+                    <div className="text-center mb-5 col-md-4">
                         <img src={etapas} className="card-img-top" alt="etapas" />
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-4">
                     </div>
                 </div>
                 <div className="jumbotron jumbotron-fluid my-0 mb-5" style={{ backgroundColor: 'blue' }}>

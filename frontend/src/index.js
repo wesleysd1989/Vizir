@@ -13,7 +13,8 @@ ReactDOM.render(
     <HashRouter>
         <Switch>
             <Route exact path="/" name="Home Page" component={Home} />
-            <Route exact path="/calc" name="Calculator Page" component={Calculator} />
+            <Route exact path="/calc/plan" name="Plan Page" component={Calculator} />
+            <Route exact path="/calc/info" name="Info Page" component={Calculator} />
             <Redirect from="/*" to="/" />
         </Switch>
     </HashRouter>
