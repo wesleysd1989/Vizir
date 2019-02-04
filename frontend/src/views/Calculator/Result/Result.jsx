@@ -57,8 +57,11 @@ class Result extends Component {
                     </tbody>
                 </table>
                 <div className="container mb-2" style={{ backgroundColor: 'white', height: '80px', paddingRight: '0px' }}>
+                    <div className="float-left">
+                        <a className="btn btn-primary" href="#/calc/info" role="button">Voltar</a>
+                    </div>
                     <div className="float-right">
-                        <a className="btn btn-primary" href="/#" role="button">Voltar</a>
+                        <a className="btn btn-primary" href="/#" role="button">Finalizar</a>
                     </div>
                 </div>
             </div>
