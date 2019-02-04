@@ -9,7 +9,7 @@ class Info extends Component {
         return (
             <div>
                 <div className="text-center mb-5 text-white" style={{ backgroundColor: 'blue', height: '80px' }}>
-                    <h1>Informações</h1>
+                    <h1 style={{paddingTop: '15px'}}>Informações</h1>
                 </div>
                 <div className="row">
                     <div className="col-md-4">
@@ -28,15 +28,15 @@ class Info extends Component {
                                 <form>
                                     <div className="row">
                                         <div className="col-md-4">
-                                            <small>DDD Origem</small>
+                                            <small><b>DDD Origem</b></small>
                                             <input type="number" className="form-control" placeholder="11" />
                                         </div>
                                         <div className="col-md-4">
-                                            <small>DDD Destino</small>
+                                            <small><b>DDD Destino</b></small>
                                             <input type="number" className="form-control" placeholder="18" />
                                         </div>
                                         <div className="col-md-4">
-                                            <small>Tempo de chamada</small>
+                                            <small><b>Tempo de chamada</b></small>
                                             <input type="number" className="form-control" placeholder="30" />
                                         </div>
                                     </div>
@@ -48,7 +48,7 @@ class Info extends Component {
                 </div>
                 <div className="container mb-2" style={{ backgroundColor: 'white', height: '80px' }}>
                     <div className="float-right">
-                        <a className="btn btn-primary" href="#/calc" role="button">Proxima etapa ></a>
+                        <a className="btn btn-primary" href="#/calc/result" role="button">Proxima etapa ></a>
                     </div>
                 </div>
             </div>

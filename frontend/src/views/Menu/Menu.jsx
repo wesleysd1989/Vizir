@@ -23,7 +23,7 @@ class Menu extends Component {
                         <form className="form-inline my-2 my-lg-0">
                             <ul className="navbar-nav mr-auto">
                                 <li className="nav-item">
-                                    <a className="nav-link mx-2" href="#/calc">Calculadora</a>
+                                    <a className="nav-link mx-2" href="#/calc/plan">Calculadora</a>
                                 </li>
                                 <li className="nav-item ">
                                     <a className="nav-link disabled mx-2" href="/#" tabIndex="-1" aria-disabled="true">Atendimento</a>

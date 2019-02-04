@@ -2,7 +2,7 @@
 import React, { Component } from 'react'
 import { HashRouter, Route, Switch } from 'react-router-dom';
 
-import { Menu, Plan, Info, Footer } from '../../views'
+import { Menu, Plan, Info, Result, Footer } from '../../views'
 
 class Home extends Component {
 
@@ -14,6 +14,7 @@ class Home extends Component {
           <Switch>
             <Route exact path="/calc/plan" name="Plan Page" component={Plan} />
             <Route exact path="/calc/info" name="Information Page" component={Info} />
+            <Route exact path="/calc/result" name="Result Page" component={Result} />
           </Switch>
         </HashRouter>
         <Footer />

@@ -9,7 +9,7 @@ class Plan extends Component {
         return (
             <div>
                 <div className="text-center mb-5 text-white" style={{ backgroundColor: 'blue', height: '80px' }}>
-                    <h1>Qual Seu Plano?</h1>
+                    <h1 style={{paddingTop: '15px'}}>Qual Seu Plano?</h1>
                 </div>
                 <div className="row">
                     <div className="col-md-4">
@@ -52,7 +52,7 @@ class Plan extends Component {
                 </div>
                 <div className="container mb-2" style={{ backgroundColor: 'white', height: '80px' }}>
                     <div className="float-right">
-                        <a className="btn btn-primary" href="#/calc" role="button">Proxima etapa ></a>
+                        <a className="btn btn-primary" href="#/calc/info" role="button">Proxima etapa ></a>
                     </div>
                 </div>
             </div>
