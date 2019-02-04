@@ -22,7 +22,7 @@ class Result extends Component {
                         </div>
                     </div>
                 </div>
-                <table className="table table-hover text-center container mb-5">
+                <table className="table table-striped text-center container mb-5">
                     <thead>
                         <tr className="bg-primary text-light">
                             <th>DDD Origem</th>
