@@ -21,7 +21,7 @@ class Footer extends Component {
                                         <a href="/#" style={{ color: '#707070' }}>HOME</a>
                                     </li>
                                     <li>
-                                        <a href="#/calc/plan" style={{ color: '#707070' }}>CALCULADORA</a>
+                                        <a href="#/calc" style={{ color: '#707070' }}>CALCULADORA</a>
                                     </li>
                                 </ul>
                             </div>

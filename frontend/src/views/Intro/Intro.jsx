@@ -13,7 +13,7 @@ class Intro extends Component {
                         <div className="py-5"></div>
                         <div className="py-5" style={{width: '400px'}}>
                             <h1>Só na telzir você fala mais por menos.</h1>
-                            <a className="btn btn-primary" href="#/calc/plan" role="button" style={{width: '240px'}}>Calcule e saiba mais</a>
+                            <a className="btn btn-primary" href="#/calc" role="button" style={{width: '240px'}}>Calcule e saiba mais</a>
                         </div>
                     </div>
                     <div className="col-md-6" style={{width: '570px', height: '400px' }}>

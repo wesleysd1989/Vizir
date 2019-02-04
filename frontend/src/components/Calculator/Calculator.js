@@ -1,27 +1,20 @@
 
 import React, { Component } from 'react'
-import { HashRouter, Route, Switch } from 'react-router-dom';
 
-import { Menu, Plan, Info, Result, Footer } from '../../views'
+import { Menu, CalcView, Footer } from '../../views'
 
-class Home extends Component {
+class Calculator extends Component {
 
   render() {
     return (
       <div>
         <Menu />
-        <HashRouter>
-          <Switch>
-            <Route exact path="/calc/plan" name="Plan Page" component={Plan} />
-            <Route exact path="/calc/info" name="Information Page" component={Info} />
-            <Route exact path="/calc/result" name="Result Page" component={Result} />
-          </Switch>
-        </HashRouter>
+        <CalcView/>
         <Footer />
       </div>
     );
   }
 }
 
-export default Home
+export default Calculator
 
