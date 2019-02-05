@@ -118,7 +118,7 @@ class CalcView extends Component {
                 <div className="text-center mb-5 text-white" style={{ backgroundColor: 'blue', height: '80px' }}>
                     <h1 style={{ paddingTop: '15px' }}>Calculadora</h1>
                 </div>
-                <div className="container my-5">
+                <div className="container my-5 col-md-5">
                     <form>
                         <div className="card">
                             <div className="card-header">
@@ -126,7 +126,7 @@ class CalcView extends Component {
                             </div>
                             <div className="card-body">
                                 <div className="form-row">
-                                    <div className="form-group col-md-6">
+                                    <div className="form-group col-md-12">
                                         <label htmlFor="status">Escolha seu plano</label>
                                         <br />
                                         <div className="form-check form-check-inline">
@@ -150,15 +150,15 @@ class CalcView extends Component {
                                     </div>
                                 </div>
                                 <div className="form-row">
-                                    <div className="form-group col-md-2">
+                                    <div className="form-group col-md-4">
                                         <label htmlFor="address">DDD Origem</label>
                                         <input type="number" placeholder="11" className="form-control" id="origem" value={this.state.origem} name="origem" onChange={e => { const value = e.target.value.replace(/\+|-/ig, ''); this.setState({ origem: value }); this.verifyOrigem(e.target.value)}}/>
                                     </div>
-                                    <div className="form-group col-md-2">
+                                    <div className="form-group col-md-4">
                                         <label htmlFor="city">DDD Destino</label>
                                         <input type="number" placeholder="18" className="form-control" id="destino" value={this.state.destino} name="destino" onChange={e => { const value = e.target.value.replace(/\+|-/ig, ''); this.setState({ destino: value }); this.verifyDestino(e.target.value)}}/>
                                     </div>
-                                    <div className="form-group col-md-2">
+                                    <div className="form-group col-md-4">
                                         <label htmlFor="province">Minutos</label>
                                         <input type="number" placeholder="120" className="form-control" id="minutos" value={this.state.minutos} name="minutos" onChange={e => { const value = e.target.value.replace(/\+|-/ig, ''); this.setState({ minutos: value }); this.verifyMinutos(e.target.value)}}/>
                                     </div>
