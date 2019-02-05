@@ -31,6 +31,9 @@ navegue até a pasta frontend via CMD ou Terminal e escreva o comando abaixo
 npm start
 ```
 
+vizualizar protótipo funcional
+https://xd.adobe.com/view/46d0d94d-626a-4e74-5f84-92bd481b363a-30e1/?fullscreen
+
 # Deploy em servidor web para demonstração
 **Heroku**  
 https://telzir-front.herokuapp.com
